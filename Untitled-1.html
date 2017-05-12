@@ -1,69 +1,59 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE HTML>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<meta charset="utf-8">
+<title>Tables</title>
+<style type="text/css">
+hr { margin: 20px 0px 20px 0 }
+table { border-collapse: collapse; border: 1px solid black; width: 360px }
+tr { border: 1px solid black; }
+td, th { text-align: left; border: inherit; padding: 4px; }
+tr > *:nth-child(2) { text-align: right; vertical-align: bottom; width: 90px }
+</style>
 </head>
-
 <body>
-<p>Testing heading in a table</p>
-<p>&nbsp;</p>
-<table width="200" border="1">
-  <caption>
-    This is a Recent Payments table
-with ea heading
-  </caption>
-  <tr>
-    <th scope="col">Tax Year</th>
-    <th scope="col">Payment Amount</th>
-  </tr>
- 
-  <tr>
-    <th scope="row"><p>2015</p>
-    <p>Estimated Tax payment</p></th>
-    <td>$45,000</td>
-  </tr>
-  <tr>
-    <th scope="row"><p>2014</p>
-      <p>Estimated Tax payment</p></th>
-    <td>$75,000</td>
-  </tr>
-  <tr>
-    <th colspan="2" scope="row"> <h3>  unable to process 2013 Estimated Tax payment</h3></th>
-  </tr>
-   <tr>
-    <th scope="row"><p>2013</p>
-      <p>Estimated Tax payment</p></th>
-    <td>$25,000</td>
-  </tr>
-   
+<h1>Table options</h1>
+<table>
+<caption>
+Shared Responsibility Payment (Health Care)
+</caption>
+<tr>
+<th scope="row">Assessed Total</th>
+<td>$1.00</td>
+</tr>
+<tr>
+<th scope="row">Accrued Interest</th>
+<td>$2.00</td>
+</tr>
+<tr>
+<th scope="row">Shared Responsibility Payment (Health Care) Total</th>
+<td>$3.00</td>
+</tr>
 </table>
-<p>&nbsp;</p>
-<table width="200" border="1">
-  <caption>
-    This is a Recent Payments table
-with an alert text
-  </caption>
-  <tr>
-    <th scope="col">Tax Year</th>
-    <th scope="col">Payment Amount</th>
-  </tr>
- 
-  <tr>
-    <th scope="row"><p>2015</p>
-    <p>Estimated Tax payment</p></th>
-    <td>$45,000</td>
-  </tr>
-  <tr>
-    <th scope="row"><p>2014</p>
-      <p>Estimated Tax payment</p></th>
-    <td>$75,000</td>
-  </tr>
-   <tr>
-    <th scope="row"> Alert: Unable to process 2013 Estimated Tax payment</th>
-    <td>$5,000</td>
-  </tr>
+
+<hr/>
+
+<table>
+<caption>
+Income Tax
+</caption>
+<tr>
+<td></td>
+<th scope="col">You Owe</th>
+</tr>
+<tr>
+<th scope="row">Assessed Total</th>
+<td>$1.00</td>
+</tr>
+<tr>
+<th scope="row">Accrued Interest</th>
+<td>$2.00</td>
+</tr>
+<tr>
+<th scope="row">Income Tax Total</th>
+<td>$3.00</td>
+</tr>
 </table>
-<p>&nbsp;</p>
+
 </body>
 </html>
